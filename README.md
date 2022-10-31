@@ -13,7 +13,7 @@ Python 3.9 +
 Clone the repository, make a new virtualenv and install required packages and plugins
 
 ```console
-1. git clone 
+1. git clone https://github.com/nbiadrytski/star-wars-api-tests.git
 2. cd star-wars-api-tests
 3. pip install -r requirements.txt
 ```
