@@ -43,3 +43,4 @@ where
 1. html-report is stored in `results` folder. `Open test_report.html` to view the report 
 2. Additional debug-level logs are stored in `results/pytest_debug.log` file
 3. See `bug.md` for wookiee format bug report
+4. Added console1.png, console2.png and console3.png pictures with console log output
