@@ -95,8 +95,9 @@ def test_search_count(people_objects_list, search_param, expected_count):
 @mark.people
 def test_person_object_schema(people_objects_list, get_schema_required_fields):
     errors = []
+    required_fields = get_schema_required_fields('people')
     for person in list(people_objects_list()):
-        for field in get_schema_required_fields('people'):
+        for field in required_fields:
             if field not in person:
                 errors.append(
                     (person['name'], f'id={person["url"][-2]}', f'{field} field is missing')
